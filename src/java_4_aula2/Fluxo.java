@@ -1,9 +1,13 @@
-package java_4_aula1_atividade2;
+package java_4_aula2;
 
 public class Fluxo {
 	public static void main(String[] args) {
-		System.out.println("Início do main");
-		metodo1();
+		try {
+			metodo1();
+		} catch (ArithmeticException | NullPointerException e) {
+			System.out.println("Exceção identificada");
+			e.printStackTrace();
+		}
 		System.out.println("Fim do main");
 	}
 	private static void metodo1() {

@@ -1,4 +1,4 @@
-package java_4_aula1_atividade1;
+package java_4_aula1;
 
 public class Fluxo {
 	public static void main(String[] args) {
